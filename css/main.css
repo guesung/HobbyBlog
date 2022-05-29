@@ -1,0 +1,129 @@
+.material-symbols-outlined {
+  font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'48
+}
+
+/* COMMON */
+body {
+  color:#333;
+  font-size: 16px; 
+  font-weight:400;
+  line-height:1.4;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.inner{
+  width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* header */
+header{
+  width: 100%;
+  background-color: rgb(211, 185, 185);
+  border-bottom:1px solid #c8c8c8;
+  position: relative;
+  top: 0;
+}
+header>.inner{
+  height: 200px;
+  top:0;
+}
+header .inner .logo{
+  height: 95px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  margin:auto;
+}
+header .inner .logo img{
+  height: 95px;
+}
+/* header / sub-menu */
+header .sub-menu{
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+header .sub-menu .menu{
+  display: flex; 
+}
+header .sub-menu .menu li{
+  padding: relative;
+} 
+header .sub-menu .menu li::before{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto ;
+  content:"";
+  width: 1px;
+  height: 18px;
+  background-color: rgb(104, 97, 97);
+}
+header .sub-menu .menu li:first-child::before{
+  display: none;
+}
+header .sub-menu .menu li a{
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+/* header / main-menu */
+header .main-menu{
+  display: flex;
+  position: absolute;
+  bottom:0; right: 0;
+}
+header .main-menu .item{
+  
+}
+header .main-menu .item:hover .item__contents{
+  display:block;
+}
+header .main-menu .item .item__name{
+  padding:30px 50px;
+  font-size: 20px;
+  color: rgb(158, 103, 103);
+  cursor: pointer;
+}
+header .main-menu .item .item__name:hover{
+  color: rgb(230, 116, 116);
+}
+header .main-menu .item .item__contents{
+  background-color: rgb(105, 92, 92);
+  width: 100%;
+  position: fixed;
+  left: 0;
+  display: none;
+}
+header .main-menu .item .item__contents .contents__menu{
+  height: 400px;
+}
+
+header .main-menu .item .item__contents .contents__menu .inner{
+  display: flex;
+  position: relative;
+}
+header .main-menu .item .item__contents .contents__menu .inner li{
+  margin-top: 20px;
+  width: 230px;
+}
+header .main-menu .item .item__contents .contents__menu .inner li h4{
+  color: #fff;
+  font-size: 24px;
+  padding:3px 0 12px 0;
+}
+header .main-menu .item .item__contents .contents__menu .inner li ul{
+}
+header .main-menu .item .item__contents .contents__menu .inner li ul li{
+  color: rgb(221, 200, 200);
+  padding:5px 0;
+}
