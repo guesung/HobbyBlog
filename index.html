@@ -22,13 +22,21 @@
   <meta property="twitter:url" content="" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <link rel="icon" href="./images/favicon.jpg" />
+  <link rel="icon" href="./favicon.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="./css/main.css" />
+  <script defer src="./js/main.js"></script>
 </head>
 
 <body>
@@ -40,16 +48,16 @@
       <div class="sub-menu">
         <ul class="menu">
           <li>
-            <a href="https://peter214.tistory.com/">living Story</a>
+            <a href="https://peter214.tistory.com/">Life Story</a>
           </li>
           <li>
             <a href="https://peter-coding.tistory.com/">Coding Story</a>
           </li>
           <li>
-            <a href="https://peter-coding.tistory.com/">Story1</a>
+            <a href="https://peter-coding.tistory.com/">Vlog</a>
           </li>
           <li>
-            <a href="https://peter-coding.tistory.com/">Story2</a>
+            <a href="https://peter-coding.tistory.com/">Story</a>
           </li>
         </ul>
       </div>
@@ -101,7 +109,7 @@
         <li class="item">
           <div class="item__name">Travel</div>
           <div class="item__contents">
-            <!-- <div class="contents__menu">
+            <div class="contents__menu">
               <ul class="inner">
                 <li>
                   <h4>Restraunt</h4>
@@ -112,7 +120,7 @@
                   </ul>
                 </li>
               </ul>
-            </div> -->
+            </div>
           </div>
         </li>
         <li class="item">
@@ -137,6 +145,23 @@
       </ul>
     </div>
   </header>
+  <!-- VISUAL -->
+  <section class="visual">
+    <div class="inner">
+      <div class="fade-in">
+        <img src="./images/sandwich.jpg" alt="SANDWICH">
+      </div>
+      <div class="fade-in">
+        <img src="./images/restaurant.jpg" alt="RESTAURANT">
+      </div>
+      <div class="fade-in">
+        <img src="./images/travel.jpg" alt="TRAVEL">
+      </div>
+      <div class="fade-in">
+        <img src="./images/gggangdori.jpg" alt="GGGANGDORI">
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>

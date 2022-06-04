@@ -103,6 +103,7 @@ header .main-menu .item .item__contents{
   position: fixed;
   left: 0;
   display: none;
+  z-index: 9;
 }
 header .main-menu .item .item__contents .contents__menu{
   height: 400px;
@@ -126,4 +127,18 @@ header .main-menu .item .item__contents .contents__menu .inner li ul{
 header .main-menu .item .item__contents .contents__menu .inner li ul li{
   color: rgb(221, 200, 200);
   padding:5px 0;
+}
+.visual{
+  margin-top:10px;
+}
+.visual .inner{
+  display: flex; 
+  flex-wrap:wrap;
+}
+.visual .inner .fade-in{
+  margin:10px;
+  opacity: 0;
+}
+.visual .inner .fade-in img{
+  width:700px;
 }
