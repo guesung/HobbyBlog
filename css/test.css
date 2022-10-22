@@ -1,0 +1,17 @@
+.container{
+
+}
+.container .balloon__boxEl{
+    
+}
+.container .balloon__boxEl .balloon{
+    
+}
+
+.balloon{
+    position:fixed;
+}
+.balloon .floating1{
+    width: 200px;
+    
+}
