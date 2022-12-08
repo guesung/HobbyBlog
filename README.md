@@ -10,4 +10,4 @@
 
 ## 📷 시연 영상
 
-<img src="https://user-images.githubusercontent.com/62178788/206398905-3f5f321e-344e-4a50-ab87-7c500ec47165.gif" width="600px">
+<img src="https://user-images.githubusercontent.com/62178788/206404812-7c0c7114-e407-426a-bea8-257af0fceeee.gif" width="600px">
